@@ -9,6 +9,7 @@ answers = [];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    console.log(data);
     const generatePage = require('./utils/generateMarkdown.js');
     fs.writeFile("README.md", data, (err) => {
             if (err) 
@@ -83,8 +84,9 @@ inquirer
           console.log(answers.link + 'Github')
           console.log(answers.email + 'email')
           console.log(answers.license + 'license')
-      })
-
+          writeToFile('README.md', answers);
+        })
+        
 
 }
 
@@ -93,4 +95,3 @@ inquirer
 // function call to initialize program
 
 init();
-writeToFile();
