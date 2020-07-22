@@ -3,38 +3,41 @@
 function generateMarkdown(data) {
 
     return `# ${data.title} README
+==================================
 
-Github Repository: ${data.Github}
-
-# Description
+### Welcome to the repository
+You can access the Github Repository at: ${data.Github}
+>
+>
+# *Description*
 ${data.description}
 
-# Table of Contents
-- Description
-- Table of Contents
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+### Table of Contents
+* [Description](#description)
++ [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+* [Usage](#usage)
++ [License](#license)
+- [Contributing](#contributing)
+* [Tests](#tests)
++ [Questions](#questions)
 
-# Installation
+# *Installation*
 ${data.installation}
 
-# Usage
+# *Usage*
 ${data.usage}
 
-# License
+# *License*
 ${data.license}
 
-# Contributing
+# *Contributing*
 ${data.contributing}
 
-# Tests
+# *Tests*
 ${data.tests}
 
-# Questions
+# *Questions*
 For any questions or for support, please contact me at:
 ${data.email}
 

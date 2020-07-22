@@ -10,7 +10,8 @@ answers = [];
 // function to write README file
 function writeToFile(fileName, data) {
     console.log(data);
-    const generatePage = require('./utils/generateMarkdown.js');
+    const generatePage = r
+    equire('./utils/generateMarkdown.js');
     fs.writeFile("README.md", data, (err) => {
             if (err) 
                 console.log(err);
