@@ -1,0 +1,23 @@
+{
+  "name": "README",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafry5/README.git"
+  },
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lafry5/README/issues"
+  },
+  "homepage": "https://github.com/lafry5/README#readme"
+}
