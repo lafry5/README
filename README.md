@@ -5,10 +5,10 @@
 You can access this Github Repository at: undefined
 >
 >
-# *Description*
+## *Description*
 readme generator
 
-### *Table of Contents*
+# *Table of Contents*
 * [Description](#description)
 + [Table of Contents](#table-of-contents)
 - [Installation](#installation)
