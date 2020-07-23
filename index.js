@@ -1,6 +1,9 @@
 const fs = require('fs');
 const inquirer = require("inquirer")
 answers = [];
+data = [];
+
+const generatePage = require('./utils/generateMarkdown.js');
 
 // // array of questions for user
 // const questions = [
@@ -9,10 +12,8 @@ answers = [];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    console.log(data);
-    const generatePage = r
-    equire('./utils/generateMarkdown.js');
-    fs.writeFile("README.md", data, (err) => {
+    console.log(data.title);
+    fs.writeFile("README.md", generatePage(data), (err) => {
             if (err) 
                 console.log(err);
           else {
@@ -32,6 +33,14 @@ inquirer
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?'
+        // validate: titleInput => {
+        //     if (titleInput) {
+        //       return true;
+        //     } else {
+        //       console.log('What is the title of your project?');
+        //       return false;
+        //     }
+        //   }
       },
       {
         type: 'input',
