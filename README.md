@@ -1,14 +1,14 @@
-# readme README
+# readme's README FILE
 ==================================
 
-### Welcome to the repository
-You can access the Github Repository at: undefined
+## *Repository*
+You can access this Github Repository at: undefined
 >
 >
 # *Description*
 readme generator
 
-### Table of Contents
+### *Table of Contents*
 * [Description](#description)
 + [Table of Contents](#table-of-contents)
 - [Installation](#installation)
@@ -18,22 +18,22 @@ readme generator
 * [Tests](#tests)
 + [Questions](#questions)
 
-# *Installation*
+## *Installation*
 npm then node 
 
-# *Usage*
+## *Usage*
 generate readme
 
-# *License*
+## *License*
 MIT
 
-# *Contributing*
+## *Contributing*
 tutor
 
-# *Tests*
+## *Tests*
 none
 
-# *Questions*
+## *Questions*
 For any questions or for support, please contact me at:
 lafry5@yahoo.com
 
