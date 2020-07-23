@@ -1,14 +1,14 @@
-# readme's README FILE
+# README Generator's README FILE
 ==================================
 
-## *Repository*
-You can access this Github Repository at: undefined
->
->
-## *Description*
-readme generator
+## Repository
+You can access this Github Repository at: https://github.com/lafry5/README
 
-# *Table of Contents*
+
+## *Description*
+This project automatically generates readme files after the user answers some pre-defined questions.
+
+# Table of Contents
 * [Description](#description)
 + [Table of Contents](#table-of-contents)
 - [Installation](#installation)
@@ -19,19 +19,19 @@ readme generator
 + [Questions](#questions)
 
 ## *Installation*
-npm then node 
+The user should install npm, then invoke the code by typing node index.
 
 ## *Usage*
-generate readme
+This will automatically generate readme.md files.
 
 ## *License*
 MIT
 
 ## *Contributing*
-tutor
+Support was provided with initially setting up the init function by my tutor.
 
 ## *Tests*
-none
+Numerous iterations of the code have been run through to get the code functioning and ensure it is functioning properly.
 
 ## *Questions*
 For any questions or for support, please contact me at:
