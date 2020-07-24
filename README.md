@@ -1,8 +1,8 @@
-# readme's README FILE
+# README's README FILE
 ==================================
 
 ## License Badge
-![](https://img.shields.io/badge/license-GPL-blue)
+![](https://img.shields.io/badge/license-Common-blue)
 
 ## Repository
 You can access this Github Repository at: https://github.com/lafry5/README
@@ -12,7 +12,7 @@ The link to the video of this project is located at:
 
 
 ## *Description*
-generate readmes
+Generate readmes
 
 # Table of Contents
 * [Description](#description)
@@ -31,13 +31,13 @@ npm then install
 generate readmes
 
 ## *License*
-This application is covered under the GPL license. Copyright (c) 2020 Laura Fry
+This application is covered under the Common license. Copyright (c) 2020 Laura Fry
 
 ## *Contributing*
 tutor
 
 ## *Tests*
-throughout project creation
+Testing performed throughout the creation of the project and after to ensure all questions were vetted and all badges were created
 
 ## *Questions*
 For any questions or for support, please contact me at: lafry5@yahoo.com or lafry5 on GitHub.
