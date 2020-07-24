@@ -12,7 +12,7 @@ The link to the video of this project is located at:
 
 
 ## *Description*
-README automatically generates a README.md file after answering some pre-defined questions
+Automatically generates readme.md file
 
 # Table of Contents
 * [Description](#description)
@@ -25,19 +25,19 @@ README automatically generates a README.md file after answering some pre-defined
 + [Questions](#questions)
 
 ## *Installation*
-Install npm then type node index.js to run the code.
+Install npm then type node index.js
 
 ## *Usage*
-To automatically generate a README.md.
+To automatically create readme.md files.
 
 ## *License*
 This application is covered under the MIT license. Copyright (c) 2020 Laura Fry
 
 ## *Contributing*
-My tutor answered a couple questions when I was initially setting up the project.
+My tutor answered some questions during initial setup of the project.
 
 ## *Tests*
-Testing was performed throughout the creation of the project and after its creation to ensure all features worked properly.
+Testing performed throughout the creation of the project and at the end to verify everything worked.
 
 ## *Questions*
 For any questions or for support, please contact me at: lafry5@yahoo.com or lafry5 on GitHub.
