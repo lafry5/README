@@ -96,6 +96,11 @@ inquirer
       },
       {
         type: 'input',
+        name: 'video',
+        message: 'What is the video link for this project (if applicable)?'
+      },
+      {
+        type: 'input',
         name: 'tests',
         message: 'Provide an explanation of testing performed'
       }]

@@ -1,4 +1,4 @@
-# README's README FILE
+# README Generator's README FILE
 ==================================
 
 ## License Badge
@@ -7,12 +7,11 @@
 ## Repository
 You can access this Github Repository at: https://github.com/lafry5/README
 
-## Video Link
-The link to the video of this project is located at: 
-
+## Video Link (if applicable)
+The link to the video of this project is located at: TBD
 
 ## *Description*
-Automatically generates readme.md files.
+README Generator automatically creates readme.md files
 
 # Table of Contents
 * [Description](#description)
@@ -28,16 +27,16 @@ Automatically generates readme.md files.
 Install npm then type node index.js
 
 ## *Usage*
-To automatically generate readme.md files.
+To automatically create readme.md files
 
 ## *License*
 This application is covered under the MIT license. Copyright (c) 2020 Laura Fry
 
 ## *Contributing*
-My tutor answered some questions when I was initially setting up the project.
+My tutor answered some questions while I was initially setting up the project.
 
 ## *Tests*
-Testing was performed throughout the project and after it was completed to full vet the functionality of the application.
+Testing performed throughout the creation of the project and after to fully vet its functionality.
 
 ## *Questions*
 For any questions or for support, please contact me at: lafry5@yahoo.com or lafry5 on GitHub.

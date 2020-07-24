@@ -11,9 +11,8 @@ function generateMarkdown(data) {
 ## Repository
 You can access this Github Repository at: ${data.link}
 
-## Video Link
-The link to the video of this project is located at: https://youtu.be/wNohmj0qN94
-
+## Video Link (if applicable)
+The link to the video of this project is located at: ${data.video}
 
 ## *Description*
 ${data.description}
