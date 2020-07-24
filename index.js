@@ -2,6 +2,7 @@ const fs = require('fs');
 const inquirer = require("inquirer")
 answers = [];
 data = [];
+// licensechoice = [];
 
 const generatePage = require('./utils/generateMarkdown.js');
 
@@ -66,17 +67,33 @@ inquirer
         type: 'checkbox',
         name: 'license',
         message: 'What license do you choose? (Check one)',
-        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'ISC']
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'ISC'],
+        // var licensechoice[] = choices[];
+      },  
+      {
+        type: 'input',
+        name: 'year',
+        message: 'What year is it?'
       },
       {
         type: 'input',
-        name: 'link',
-        message: 'What is the link to your Github repository?'
+        name: 'name',
+        message: 'What is your full name?'
       },
       {
         type: 'input',
         name: 'email',
         message: 'What is your email address?'
+      },
+      {
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?'
+      },
+      {
+        type: 'input',
+        name: 'link',
+        message: 'What is the link to your GitHub repository?'
       },
       {
         type: 'input',

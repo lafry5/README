@@ -8,6 +8,9 @@ function generateMarkdown(data) {
 ## Repository
 You can access this Github Repository at: ${data.link}
 
+## Video Link
+The link to the video of this project is located at: 
+
 
 ## *Description*
 ${data.description}
@@ -29,7 +32,7 @@ ${data.installation}
 ${data.usage}
 
 ## *License*
-${data.license}
+This application is covered under the ${data.license} license. Copyright (c) ${data.year} ${data.name}
 
 ## *Contributing*
 ${data.contributing}
@@ -38,8 +41,8 @@ ${data.contributing}
 ${data.tests}
 
 ## *Questions*
-For any questions or for support, please contact me at:
-${data.email}
+For any questions or for support, please contact me at: ${data.email} or ${data.username} on GitHub.
+
 
   `;
   
