@@ -13,7 +13,7 @@ const generatePage = require('./utils/generateMarkdown.js');
 
 // function to write README file
 function writeToFile(fileName, data) {
-    console.log('in the writetoFile' + data.license + ' is the license');
+    // console.log('in the writetoFile' + data.license + ' is the license');
     fs.writeFile("README.md", generatePage(data), (err) => {
             if (err) 
                 console.log(err);
@@ -67,7 +67,7 @@ inquirer
         type: 'checkbox',
         name: 'license',
         message: 'What license do you choose? (Check one)',
-        choices: ['MIT', 'GPL', 'Common', 'GPLv2'],
+        choices: ['MIT', 'GPL', 'Common', 'GPL(>=2)'],
       },  
       {
         type: 'input',
@@ -101,15 +101,15 @@ inquirer
       }]
       )
       .then(function(answers){
-          console.log(answers.title + ' is title')
-          console.log(answers.description + ' is description')
-          console.log(answers.installation + ' is installation')
-          console.log(answers.usage + ' is usage')
-          console.log(answers.contributing + ' is contributing')
-          console.log(answers.tests + ' is tests')
-          console.log(answers.link + ' is Github')
-          console.log(answers.email + ' is email')
-          console.log(answers.license + ' is license')
+        //   console.log(answers.title + ' is title')
+        //   console.log(answers.description + ' is description')
+        //   console.log(answers.installation + ' is installation')
+        //   console.log(answers.usage + ' is usage')
+        //   console.log(answers.contributing + ' is contributing')
+        //   console.log(answers.tests + ' is tests')
+        //   console.log(answers.link + ' is Github')
+        //   console.log(answers.email + ' is email')
+        //   console.log(answers.license + ' is license')
         //   if(license =='GPL'){
         //       license = 'GPL%20(%3E%3D%202)'
         //   } else
