@@ -111,12 +111,31 @@ inquirer
           console.log(answers.link + 'Github')
           console.log(answers.email + 'email')
           console.log(answers.license + 'license')
+        //   chooseLicense(answers);
           writeToFile('README.md', answers);
         })
         
 
 }
 
+
+// Choose License badge
+
+// function chooseLicense(answers) {
+//     if(answers.license=='MIT') {
+//         licensechoice = [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+//     } else if {
+//         (answers.license=='GPLv3') {
+//             licensechoice =  [GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)    
+//     } else if {
+//         (answers.license=='GPL') {
+//             licensechoice =  [GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+//     } else if {
+//         (answers.license=='CC-0') {
+//             licensechoice =  [CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
+//     }
+//     return(licensechoice)
+// }
 
 
 // function call to initialize program

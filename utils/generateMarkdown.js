@@ -5,22 +5,6 @@ function generateMarkdown(data) {
     return `# ${data.title}'s README FILE
 ==================================
 
-if(${data.license}=='MIT') {
-    [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-}
-
-if(${data.license}=='GPLv3') {
-    [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-}
-
-if(${data.license}=='GPL') {
-    [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-}
-
-if(${data.license}=='CC-0') {
-    [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
-}
-
 ## Repository
 You can access this Github Repository at: ${data.link}
 
