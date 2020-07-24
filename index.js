@@ -67,7 +67,7 @@ inquirer
         type: 'checkbox',
         name: 'license',
         message: 'What license do you choose? (Check one)',
-        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'ISC'],
+        choices: ['MIT', 'GPLv3', 'GPL', 'CC-0'],
         // var licensechoice[] = choices[];
       },  
       {
