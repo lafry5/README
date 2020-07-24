@@ -5,6 +5,9 @@ function generateMarkdown(data) {
     return `# ${data.title}'s README FILE
 ==================================
 
+## License Badge
+![](https://img.shields.io/badge/license-${data.license}-blue)
+
 ## Repository
 You can access this Github Repository at: ${data.link}
 
