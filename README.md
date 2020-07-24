@@ -1,8 +1,8 @@
-# README's README FILE
+# readme's README FILE
 ==================================
 
 ## License Badge
-![](https://img.shields.io/badge/license-MIT-blue)
+![](https://img.shields.io/badge/license-GPL-blue)
 
 ## Repository
 You can access this Github Repository at: https://github.com/lafry5/README
@@ -12,7 +12,7 @@ The link to the video of this project is located at:
 
 
 ## *Description*
-Generates readme files
+generate readmes
 
 # Table of Contents
 * [Description](#description)
@@ -25,19 +25,19 @@ Generates readme files
 + [Questions](#questions)
 
 ## *Installation*
-npm then node
+npm then install
 
 ## *Usage*
-Generates readme files
+generate readmes
 
 ## *License*
-This application is covered under the MIT license. Copyright (c) 2020 Laura Fry
+This application is covered under the GPL license. Copyright (c) 2020 Laura Fry
 
 ## *Contributing*
-My tutor answered a question during the initial setup of my project
+tutor
 
 ## *Tests*
-Testing was performed throughout the creation of the project
+throughout project creation
 
 ## *Questions*
 For any questions or for support, please contact me at: lafry5@yahoo.com or lafry5 on GitHub.
