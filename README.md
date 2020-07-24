@@ -8,7 +8,7 @@
 You can access this Github Repository at: https://github.com/lafry5/README
 
 ## Video Link (if applicable)
-The link to the video of this project is located at: TBD
+The link to the video of this project is located at: https://youtu.be/410S-Zlx1lo
 
 ## *Description*
 README Generator automatically creates readme.md files
